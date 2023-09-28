@@ -14,14 +14,6 @@ const taskRouter = require("./routes/taskRouter");
 
 const notFound = require("./middlewares/notFound");
 
-// mongoose.connect(
-
-// ).then(()=>{
-//     console.log('DB connected!');
-// }).catch((error)=>{
-//     console.log(error);
-//     console.log('unable to connect');
-// });
 
 app.use(express.json());
 
